@@ -4,6 +4,7 @@
 
 <img width="1660" height="811" alt="Diagram" src="https://github.com/user-attachments/assets/c1211702-48dd-4ce0-929d-4eecfc7541a7" />
 
+---
 
 ### Real-Time IoT Data Pipeline with AWS, Kafka, PostgreSQL, Snowflake, dbt & Streamlit
 
