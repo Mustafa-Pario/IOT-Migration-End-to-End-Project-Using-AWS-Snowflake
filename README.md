@@ -151,25 +151,6 @@ The dashboard displays:
 | Streamlit | Dashboard |
 | Amazon EC2 | Application Hosting |
 
----
-
-# 📂 Project Structure
-
-```
-IoT-Migration-Project-By-AWS
-│
-├── AWS-IoT/
-├── AWS-MSK/
-├── PostgreSQL/
-├── Kafka/
-├── Debezium/
-├── Snowflake/
-├── dbt/
-├── Streamlit/
-├── Images/
-├── README.md
-└── LICENSE
-```
 
 ---
 
@@ -193,21 +174,5 @@ IoT-Migration-Project-By-AWS
 - Data Transformation using dbt
 - Interactive Dashboard
 - AWS Cloud Integration
-
----
-
-# 🎯 Learning Outcomes
-
-This project demonstrates:
-
-- AWS IoT Core
-- Amazon MSK (Kafka)
-- Kafka Connect
-- PostgreSQL
-- Debezium CDC
-- Snowflake
-- dbt
-- Streamlit Dashboard
-- End-to-End Data Engineering Pipeline
 
 ---
