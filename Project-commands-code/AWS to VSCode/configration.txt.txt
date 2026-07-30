@@ -1,0 +1,59 @@
+
+
+# 1. Check AWS CLI
+aws --version
+
+# 2. Configure AWS
+aws configure
+
+# 3. Verify AWS Account
+aws sts get-caller-identity
+
+# 4. Get AWS IoT Endpoint
+aws iot describe-endpoint --endpoint-type iot:Data-ATS
+
+# 5. Install Python Libraries
+pip install boto3 awsiotsdk kafka-python psycopg2-binary pandas streamlit
+
+# 6. Check Python
+python --version
+
+# 7. Check pip
+pip --version
+
+# 8. Open Project Folder
+cd "E:\Cloud Data Engineering\Project\SMIT-Hackathon"
+
+# 9. Open VS Code
+code .
+
+# 10. Create Virtual Environment
+python -m venv venv
+
+# 11. Activate Virtual Environment
+.\venv\Scripts\Activate
+
+# 12. Verify Installed Packages
+pip list
+
+# 13. Run Producer
+python producer.py
+
+# 14. Install AWS CDK
+npm install -g aws-cdk
+
+# 15. Check CDK Version
+cdk --version
+
+==========================================
+AWS Connection Test (test.py)
+==========================================
+
+import boto3
+
+sts = boto3.client("sts")
+print(sts.get_caller_identity())
+
+Run:
+
+python test.py
